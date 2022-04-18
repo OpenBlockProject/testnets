@@ -1,11 +1,11 @@
 # Moxy Testnet Instructions
 
 ## TLDR
-Block explorer: n/a
+Block explorer:
 
-Binaries: n/a
+Binaries: 
 
-Genesis file:
+Genesis file: [genesis.json](https://github.com/OpenBlockProject/testnets/blob/main/moxy/genesis.json)
 
 Seeds:
 
