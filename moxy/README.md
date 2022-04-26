@@ -17,10 +17,10 @@ Seeds:
 ## Software Requirements
 Moxy has releases for Linux and MacOS [here](https://github.com/OpenBlockProject/openblockchain/releases/tag/latest)
 
-### Install Moxy
+## Install Moxy
 You can install Moxy by downloading the binary (easiest) or compiling from source.
 
-# Option 1: Download binary
+### Option 1: Download binary
 1. Download the binary for your platform: [releases](https://github.com/OpenBlockProject/openblockchain/releases/tag/latest).
 2. Copy it to a location in your PATH, i.e: ```/usr/local/bin``` or ```$HOME/bin```
 
@@ -28,3 +28,13 @@ i.e.:
 ```
 
 ```
+### Option 2: Clone from source
+
+## Initialize Node
+Use openblockchaind to initialize your node (replace the ```NODE_NAME``` with a name of your choosing):
+```
+openblockchaind init NODE_NAME --chain-id=moxy
+```
+Open the config.toml to edit the seeds and persistent peers.
+```
+cd $HOME/
