@@ -57,7 +57,7 @@ Create the required directories:
 ```
 mkdir -p ~/.openblockchaind/cosmovisor
 mkdir -p ~/.openblockchaind/cosmovisor/genesis
-mkdir -p ~/.openblockchaindd/cosmovisor/genesis/bin
+mkdir -p ~/.openblockchaind/cosmovisor/genesis/bin
 mkdir -p ~/.openblockchaind/cosmovisor/upgrades
 ```
 Set the environment variables:
