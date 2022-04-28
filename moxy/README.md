@@ -5,7 +5,7 @@ Block explorer:
 
 Binaries: 
 
-Genesis file: [genesis.json](https://github.com/OpenBlockProject/testnets/blob/main/moxy/genesis.json)
+Genesis file:
 
 Seeds:
 
